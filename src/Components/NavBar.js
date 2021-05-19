@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../img/avatar.png';
+import avatar from '../img/logo.PNG';
 import {NavLink} from 'react-router-dom';
 
 function Navbar() {
@@ -13,12 +13,12 @@ function Navbar() {
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
-                            Home
+                            Inicio
                         </NavLink>
                     </li>
                     <li className="nav-item">
                         <NavLink to="/about" exact activeClassName="active">
-                            About
+                            Sobre mim
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -27,13 +27,8 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/blogs" exact activeClassName="active">
-                            Blogs
-                        </NavLink>
-                    </li>
-                    <li className="nav-item">
                         <NavLink to="/contact" exact activeClassName="active">
-                            Contact
+                            Contato
                         </NavLink>
                     </li>
                 </ul>
