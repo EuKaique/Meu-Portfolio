@@ -1,34 +1,38 @@
 import React from 'react';
 import {faFacebook} from '@fortawesome/free-brands-svg-icons';
+import {faInstagram} from '@fortawesome/free-brands-svg-icons';
 import {faGithub} from '@fortawesome/free-brands-svg-icons';
-import {faYoutube} from '@fortawesome/free-brands-svg-icons';
+import {faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {Link} from 'react-router-dom';
 
 function HomePage() {
     return (
         <div className="HomePage">
             <header className="hero">
                 <h1 className="hero-text">
-                    Hi, I am 
-                    <span> Lorem Ipsum.</span>
+                    Olá, seja 
+                    <span> Bem vindo(a).</span>
                 </h1>
                 <p className="h-sub-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Cupiditate facere, numquam vitae placeat consequatur corrupti officia 
-                    quibusdam. Blanditiis doloremque nemo ex facilis neque. 
-                    A sint ipsam earum nemo omnis et.
+                    Eu sou o Kaique, estudante e amante do mundo da tecnologia da informação.
+                    Desenvolvo projetos front-end, criação de websites e consumo de API's usando
+                    as tecnologias: html, css, javascript e seus frameworks e bibliotecas, possuo
+                    conhecimento também de back-end: Node.JS, Banco de dados relacionais e não relacionais,
+                    fique a vontade pra explorar o site ^^
                 </p>
                 <div className="icons">
-                    <Link to="test" className="icon-holder">
+                    <a href="https://www.facebook.com/kaique.oliveirasantos.547/" target="_blank" rel="noreferrer" className="icon-holder">
                         <FontAwesomeIcon icon={faFacebook} className="icon fb" />
-                    </Link>
-                    <Link to="test" className="icon-holder">
+                    </a>
+                    <a href="https://www.instagram.com/kaique_o_s/" target="_blank" rel="noreferrer" className="icon-holder">
+                        <FontAwesomeIcon icon={faInstagram} className="icon in" />
+                    </a>
+                    <a href="https://github.com/EuKaique" target="_blank" rel="noreferrer" className="icon-holder">
                         <FontAwesomeIcon icon={faGithub} className="icon gh" />
-                    </Link>
-                    <Link to="test" className="icon-holder">
-                        <FontAwesomeIcon icon={faYoutube} className="icon yt"/>
-                    </Link>
+                    </a>
+                    <a href="https://www.linkedin.com/in/kaique-oliveira-santos-0806a6a3/" target="_blank" rel="noreferrer" className="icon-holder">
+                        <FontAwesomeIcon icon={faLinkedin} className="icon lk"/>
+                    </a>
                 </div>
             </header>
         </div>

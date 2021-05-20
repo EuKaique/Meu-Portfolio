@@ -35,7 +35,7 @@ function Navbar() {
 
                 <footer className="footer">
                     <p>
-                        @2021 Lorem Ipsum
+                        Kaique Oliveira Santos &reg;
                     </p>
             </footer>
             </nav>

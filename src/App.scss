@@ -17,7 +17,7 @@ body::-webkit-scrollbar{
     width: 8px;
 }
 body::-webkit-scrollbar-thumb{
-    background-color: #0056d898;
+    background-color: #00917c;
     border-radius: 50px;
 }
 body::-webkit-scrollbar-track{
@@ -30,9 +30,11 @@ body{
     font-size: 1.2rem;
 }
 span{
-    color: #037FFF;
+    color: #54e346;
 }
-
+.btn-port{
+    background-color: #00917c;
+}
 @media screen and (max-width: 411px){
     html{
         font-size: 70%;

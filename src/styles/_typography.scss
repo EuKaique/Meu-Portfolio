@@ -12,7 +12,7 @@
     text-align: center;
     font-size: 3.6rem;
     span{
-        color: #037FFF;
+        color: #54e346;
     }
 }
 
@@ -28,18 +28,21 @@
     .icon-holder{
         margin-right: 1rem;
         .icon{
-           font-size: 2.8rem;
+           font-size: 2.4rem;
            color: #a4acc4;
            transition: all .4s ease-in-out;
         }
         .fb:hover{
-            color: blue;
+            color: rgb(0, 119, 255);
+        }
+        .in:hover{
+            color: rgb(255, 0, 221);
         }
         .gh:hover{
-            color: rgba(212, 45, 212, 0.788);
+            filter: invert(100%);
         }
-        .yt:hover{
-            color: red;
+        .lk:hover{
+            color: rgb(0, 68, 255);
         }
     }
 }

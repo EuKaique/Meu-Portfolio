@@ -1,80 +1,67 @@
-import port1 from '../img/portImages/maya-1.jpg';
-import port2 from '../img/portImages/port1.jpg';
-import port3 from '../img/portImages/port2.jpg';
-import port4 from '../img/portImages/port3.jpg';
-import port6 from '../img/portImages/port5.jpg';
-import port7 from '../img/portImages/port6.jpg';
+import port1 from '../img/portImages/port0.PNG';
+import port2 from '../img/portImages/port1.PNG';
+import port3 from '../img/portImages/port2.PNG';
+import port4 from '../img/portImages/port3.PNG';
+import port5 from '../img/portImages/port4.PNG';
+import port6 from '../img/portImages/port5.PNG';
+import port7 from '../img/portImages/port6.PNG';
 
 const portfolios = [
     {
         id: 1,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'JavaScript',
+        link1: 'https://github.com/EuKaique/Calculadora-Online',
+        icon1: 'Github',
         image: port1,
-        title: 'Autodesk Maya'
+        title: 'Calculadora JavaScript'
     },
     {
         id: 2,
-        category: 'Python',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'Php',
+        link1: 'https://github.com/EuKaique/Site-de-Eventos',
+        icon1: 'Github',
         image: port2,
-        title: 'Python Web Scrapping'
+        title: 'Site de eventos'
     },
     {
         id: 3,
-        category: 'Animation',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'Html e Css',
+        link1: 'https://github.com/EuKaique/Site-de-Empregos',
+        icon1: 'Github',
         image: port3,
-        title: 'Autodesk Maya'
+        title: 'Site de empregos'
     },
     {
         id: 4,
-        category: 'Javascript',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        category: 'JavaScript',
+        link1: 'https://github.com/EuKaique/Ecommerce',
+        icon1: 'Github',
         image: port4,
-        title: 'Vanilla Javascript Website'
+        title: 'Ecommerce'
     },
     {
         id: 5,
         category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        link1: 'https://github.com/EuKaique/moveit-next',
+        icon1: 'Github',
         image: port6,
-        title: 'Getting Started With React'
+        title: 'Move it - Movimente-se'
     },
     {
         id: 6,
         category: 'React Js',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
+        link1: 'https://github.com/EuKaique/Localizador_Github-Github_Finder',
+        icon1: 'Github',
         image: port7,
-        title: 'Vanilla Javascript Website'
+        title: 'Localiza Github'
     },
     {
         id: 7,
-        category: 'Test Port',
-        link1: 'www.youtube.com',
-        link2: 'www.github.com',
-        icon1: 'G',
-        icon2: 'Y',
-        image: port4,
-        title: 'Vanilla Javascript Website'
+        category: 'Node Js',
+        link1: 'https://github.com/EuKaique/You-informed',
+        icon1: 'Github',
+        image: port5,
+        title: 'Site de notícias'
     }
 ]
 

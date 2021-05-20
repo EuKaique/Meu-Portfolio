@@ -5,40 +5,38 @@ import SkillsSection from '../Components/SkillsSection';
 import ServicesSection from '../Components/ServicesSection';
 import design from '../img/design.svg';
 import intelligence from '../img/intelligence.svg';
-import gamedev from '../img/game-dev.svg';
+
 
 function AboutPage() {
     return (
         <div className="AboutPage">
-            <Tittle title={'About Me'} span={'About Me'} />
+            <Tittle title={'Sobre mim'} span={'Sobre mim'} />
             <ImageSection />
-            <Tittle title={'My Skills'} span={'My Skills'} />
+            <Tittle title={'Conhecimento'} span={'Conhecimento'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Javascript'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Typescript'} progress={'30%'} width={'30%'} />
-                <SkillsSection skill={'React Js'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'Node Js'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Python'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Lua'} progress={'40%'} width={'40%'} />
-                <SkillsSection skill={'Java'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'Web Design'} progress={'25%'} width={'25%'} />
-                <SkillsSection skill={'UI/Ux Design'} progress={'76%'} width={'76%'} />
+                <SkillsSection skill={'Html'} progress={'90%'} width={'90%'} />
+                <SkillsSection skill={'Css'} progress={'80%'} width={'80%'} />
+                <SkillsSection skill={'JavaScript'} progress={'70%'} width={'70%'} />
+                <SkillsSection skill={'React Js'} progress={'60%'} width={'60%'} />
+                <SkillsSection skill={'Node Js'} progress={'60%'} width={'60%'} />
+                <SkillsSection skill={'Python'} progress={'55%'} width={'55%'} />
+                <SkillsSection skill={'Php'} progress={'65%'} width={'65%'} />
+                <SkillsSection skill={'Laravel'} progress={'65%'} width={'65%'} />
+                <SkillsSection skill={'MySQL'} progress={'80%'} width={'80%'} />
+                <SkillsSection skill={'Mongo DB'} progress={'60%'} width={'60%'} />
             </div>
 
-            <Tittle title={'Services'} span={'Services'} />
+            <Tittle title={'Serviços'} span={'Serviços'} />
             <div className="servives-container">
-                <ServicesSection image={design} title={'Web design'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={design} title={'Front-end'} 
+                text={'Desenvolvimento de sites, toda a camada de interface, consumo de APIs.'}
                 />
-                <ServicesSection image={intelligence} title={'Artificial Intelligence'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
-                />
-                <ServicesSection image={gamedev} title={'Game Development'} 
-                text={'Lorem ipsum dolor sit amet consectetur adipisicing elit.'}
+                <ServicesSection image={intelligence} title={'Back-end'} 
+                text={'Modelo MVC, Auth e CRUD, lógica condicional, lógica de repetição dentre outras.'}
                 />
 
                 
-            </div>
+            </div>  
 
         </div>
     )

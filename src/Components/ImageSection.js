@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../img/about.jpg';
+import about from '../img/about.PNG';
 
 function ImageSection() {
     return (
@@ -8,31 +8,26 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span> Lorem Ipsum</span></h4>
+                <h4>Quem é o <span>Kaique?</span></h4>
                 <p className="about-text">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
-                    Desir per po la ta doso vi slone ve?
+                    Brevemente, apresentarei informações importantes sobre mim:
+                    Tenho 25 anos de idade, Solteiro, residente em São Paulo - SP,
+                    Procuro uma oportunidade profissional como Desenvolvedor
                 </p>
                 <div className="about-details">
                     <div className="left-section">
-                        <p>Full Name</p>
-                        <p>Age</p>
-                        <p>Nationality</p>
-                        <p>Languages</p>
-                        <p>Address</p>
-                        <p>Countries</p>
+                        <p>Nome Completo</p>
+                        <p>Idade</p>
+                        <p>Nacionalidade</p>
+                        <p>Endereço</p>
                     </div>
                     <div className="right-section">
-                        <p>: Lorem Ipsum</p>
-                        <p>: 50</p>
-                        <p>: French</p>
-                        <p>: French, Spanish, English</p>
-                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
-                        <p>: France, Spain, Germany</p>
+                        <p>: Kaique Oliveira Santos</p>
+                        <p>: 25 anos</p>
+                        <p>: Brasileira</p>
+                        <p>: Avenida M Boi Guaçu</p>
                     </div>
                 </div>
-                <button className="btn">Download Cv</button>
             </div>
         </div>
     )
