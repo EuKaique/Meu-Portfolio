@@ -1,5 +1,5 @@
 import React from 'react';
-import about from '../img/about.PNG';
+import about from '../img/about.jpg';
 
 function ImageSection() {
     return (

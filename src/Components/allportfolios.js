@@ -1,10 +1,10 @@
-import port1 from '../img/portImages/port0.PNG';
-import port2 from '../img/portImages/port1.PNG';
-import port3 from '../img/portImages/port2.PNG';
-import port4 from '../img/portImages/port3.PNG';
-import port5 from '../img/portImages/port4.PNG';
-import port6 from '../img/portImages/port5.PNG';
-import port7 from '../img/portImages/port6.PNG';
+import port1 from '../img/portImages/port0.jpg';
+import port2 from '../img/portImages/port1.jpg';
+import port3 from '../img/portImages/port2.jpg';
+import port4 from '../img/portImages/port3.jpg';
+import port5 from '../img/portImages/port4.jpg';
+import port6 from '../img/portImages/port5.jpg';
+import port7 from '../img/portImages/port6.jpg';
 
 const portfolios = [
     {
