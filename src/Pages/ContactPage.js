@@ -13,6 +13,7 @@ function ContactPage() {
             </div>
             <div className="ContactPage">
                 <div className="map-sect">
+                     {/* eslint-disable-next-line */}
                     <iframe src="https://maps.google.com/maps?q=avenida%20m%20boi%20gua%C3%A7u%20712&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style={{border:0}} allowFullScreen="" aria-hidden="false" tabIndex="0"></iframe>
                 </div>
                 <div className="contact-sect">
