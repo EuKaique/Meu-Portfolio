@@ -5,6 +5,7 @@ import port4 from '../img/portImages/port3.jpg';
 import port5 from '../img/portImages/port4.jpg';
 import port6 from '../img/portImages/port5.jpg';
 import port7 from '../img/portImages/port6.jpg';
+import port8 from '../img/portImages/port7.PNG';
 
 const portfolios = [
     {
@@ -62,6 +63,14 @@ const portfolios = [
         icon1: 'Github',
         image: port5,
         title: 'Site de notícias'
+    },
+    {
+        id: 8,
+        category: 'JavaScript',
+        link1: 'https://github.com/EuKaique/Despertador-JS',
+        icon1: 'Github',
+        image: port8,
+        title: 'Despertador JS'
     }
 ]
 
