@@ -49,7 +49,7 @@
                         text-decoration: none;
                         font-family: inherit;
                         border-radius: 10px;
-                        background-color: #54e346;
+                        background-color: #e38d46;
                         color: white;
                         &:not(:last-child){
                             margin-right: 2rem;
@@ -73,7 +73,7 @@
             color: white;
             transition: all .3s ease-in-out;
             &:hover{
-                color:  #54e346;
+                color:  #e38d46;
                 cursor: pointer;
             }
         }
