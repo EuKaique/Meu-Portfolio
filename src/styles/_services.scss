@@ -1,18 +1,18 @@
 .ServicesSection{
     .service{
         width: 95%;
-        background-color: #2b1f19;
-        border-left: 1px solid #4e3b2e;
-        border-right: 1px solid #4e322e;
-        border-bottom: 1px solid #4e322e;
-        border-top: 8px solid #4e322e;
+        background-color: #dfdfdf5e;
+        border-left: 1px solid #dfdfdf5e;
+        border-right: 1px solid #dfdfdf5e;
+        border-bottom: 1px solid #dfdfdf5e;
+        border-top: 8px solid #f7f7f7;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1400px){
             width: 100%;
             margin-bottom: 1rem;
         }
         &:hover{
-            border-top: 8px solid #e38d46;
+            border-top: 8px solid #FFD523;
         }
         
         .service-content{
@@ -30,7 +30,7 @@
                     left: 0;
                     width: 30%;
                     height: 1px;
-                    background-color: #4e322e;
+                    background-color: #FFD523;
                 }
             }
         }

@@ -14,7 +14,6 @@ function HomePage() {
                     <span> Bem vindo(a).</span>
                 </h1>
                 <p className="h-sub-text">
-                    Amante do mundo da tecnologia da informação.
                     Desenvolvo projetos front-end, criação de websites e consumo de API's usando
                     as tecnologias: html, css, javascript e seus frameworks e bibliotecas, possuo
                     conhecimento também de back-end, banco de dados SQL e noSQL

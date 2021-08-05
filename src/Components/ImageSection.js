@@ -8,11 +8,10 @@ function ImageSection() {
                 <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>Quem é o <span>Kaique?</span></h4>
+                <h4>Quem sou<span> eu?</span></h4>
                 <p className="about-text">
-                    Brevemente, apresentarei informações importantes sobre mim:
-                    Tenho 25 anos de idade, Solteiro, residente em São Paulo - SP,
-                    Procuro uma oportunidade profissional como Desenvolvedor
+                   Estudante assíduo de programação, cursei ciência da computação, trabalhei como analista de sistemas, 
+                   e atualmente trabalho como freelancer. Estou disponível para novas oportunidades :D
                 </p>
                 <div className="about-details">
                     <div className="left-section">

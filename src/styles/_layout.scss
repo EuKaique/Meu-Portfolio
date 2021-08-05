@@ -2,10 +2,10 @@
     .sidebar{
         width: 16%;
         height: 100vh;
-        background-color: #2b1f19;
+        background-color: #ffffff;
         position: fixed;
         z-index: 11;
-        border-right: 1px solid #2b1f19;
+        border-right: 1px solid #FFD523;
         transform-origin: left;
         @media screen and (max-width: 1000px){
             transition: all .4s ease-in-out;
@@ -26,7 +26,7 @@
     .main-content{
         width: 84%;
         margin-left: 16%;
-        background-color: #1b1310;
+        background-color: #ffffff;
         min-height: 100vh;
         background-image: url(../img/dots.svg);
         display: grid;
@@ -68,7 +68,7 @@
     .lines-1, .lines-2, .lines-3{
         height: .4rem;
         width: 100%;
-        background-color: #884c2467;
+        background-color: #000000;
         pointer-events: none;
         display: none;
         border-radius: 20px;

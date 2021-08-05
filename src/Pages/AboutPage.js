@@ -14,16 +14,16 @@ function AboutPage() {
             <ImageSection />
             <Tittle title={'Conhecimento'} span={'Conhecimento'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Html'} progress={'90%'} width={'90%'} />
-                <SkillsSection skill={'Css'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'JavaScript'} progress={'80%'} width={'80%'} />
-                <SkillsSection skill={'React Js'} progress={'60%'} width={'60%'} />
-                <SkillsSection skill={'Node Js'} progress={'60%'} width={'60%'} />
+                <SkillsSection skill={'Html'} progress={'95%'} width={'95%'} />
+                <SkillsSection skill={'Css'} progress={'85%'} width={'85%'} />
+                <SkillsSection skill={'JavaScript'} progress={'85%'} width={'85%'} />
+                <SkillsSection skill={'React Js'} progress={'65%'} width={'65%'} />
+                <SkillsSection skill={'Node Js'} progress={'65%'} width={'65%'} />
                 <SkillsSection skill={'Python'} progress={'55%'} width={'55%'} />
-                <SkillsSection skill={'Php'} progress={'70%'} width={'70%'} />
-                <SkillsSection skill={'Laravel'} progress={'70%'} width={'70%'} />
+                <SkillsSection skill={'Php'} progress={'75%'} width={'75%'} />
+                <SkillsSection skill={'Laravel'} progress={'80%'} width={'80%'} />
                 <SkillsSection skill={'MySQL'} progress={'85%'} width={'85%'} />
-                <SkillsSection skill={'Mongo DB'} progress={'60%'} width={'60%'} />
+                <SkillsSection skill={'Mongo DB'} progress={'65%'} width={'65%'} />
             </div>
 
             <Tittle title={'Serviços'} span={'Serviços'} />
@@ -32,7 +32,7 @@ function AboutPage() {
                 text={'Desenvolvimento de sites, toda a camada de interface, consumo de APIs.'}
                 />
                 <ServicesSection image={intelligence} title={'Back-end'} 
-                text={'Modelo MVC, Auth e CRUD, lógica condicional, lógica de repetição dentre outras.'}
+                text={'Modelo MVC, Auth e CRUD.'}
                 />
 
                 
