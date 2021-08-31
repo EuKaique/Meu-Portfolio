@@ -8,6 +8,7 @@ import port7 from '../img/portImages/port6.jpg';
 import port8 from '../img/portImages/port7.PNG';
 import port9 from '../img/portImages/port8.PNG';
 import port10 from '../img/portImages/port9.PNG';
+import port11 from '../img/portImages/port10.PNG';
 
 const portfolios = [
     {
@@ -89,6 +90,14 @@ const portfolios = [
         icon1: 'Site',
         image: port10,
         title: 'Calcula média do aluno'
+    },
+        {
+        id: 11,
+        category: 'Html e Css',
+        link1: 'https://eukaique.github.io/Agencia-servicos/',
+        icon1: 'Site',
+        image: port11,
+        title: 'Agência de serviços'
     }
 ]
 

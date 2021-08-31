@@ -11,7 +11,7 @@
             width: 100%;
             text-align: center;
             margin-top: 1rem;
-            border-bottom: 1px solid #FFD523;
+            border-bottom: 1px solid #185ADB;
             img{
                 width: 70%;
                 border-radius: 100%;
@@ -40,7 +40,7 @@
                         left: 0;
                         width: .4rem;
                         height: 100%;
-                        background-color: #ffd9005e;
+                        background-color: rgba(110,110,110,0.2);
                         transform-origin: bottom;
                         transform: scale(0);
                         overflow-x: hidden;
@@ -57,7 +57,7 @@
 
         .footer{
             width: 100%;
-            border-top: 1px solid #FFD523;
+            border-top: 1px solid #185ADB;
             p{
                 text-align: center;
                 padding: 1rem 0;
@@ -68,5 +68,5 @@
 }
 
 .active{
-    background-color: #FFD523;
+    background-color: #3DB2FF;
 }

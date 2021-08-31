@@ -16,7 +16,7 @@ function HomePage() {
                 <p className="h-sub-text">
                     Desenvolvo projetos front-end, criação de websites e consumo de API's usando
                     as tecnologias: html, css, javascript e seus frameworks e bibliotecas, possuo
-                    conhecimento também de back-end, banco de dados SQL e noSQL
+                    conhecimento de back-end, banco de dados SQL e noSQL
                 </p>
                 <div className="icons">
                     <a href="https://www.facebook.com/kaique.oliveirasantos.547/" target="_blank" rel="noreferrer" className="icon-holder">

@@ -43,7 +43,7 @@
 
 .btn{
     padding: 1rem 2rem;
-    background-color: #FFD523;
+    background-color: #185ADB;
     outline: none;
     border: none;
     font-family: inherit;
@@ -61,7 +61,7 @@
         height: .3rem;
         left: 0;
         bottom: 0;
-        background-color: #a4acc42f;;
+        background-color: #a4acc4;
         transition: all 0.4s ease-in-out;
     }
     &:hover::after{
@@ -82,7 +82,7 @@
 
 .btn-port{
     padding: .6rem 2rem;
-    background-color: #ccccab;
+    background-color: #abb8cc;
     border: none;
     outline: none;
     cursor: pointer;
@@ -95,13 +95,13 @@
         margin-right: 1rem;
     }
     &:hover{
-        background-color: #FFD523;
+        background-color: #185ADB;
     }
     &:active{
-        background-color: #FFD523;
+        background-color: #185ADB;
     }
     &:focus{
-        background-color: #FFD523;
+        background-color: #185ADB;
     }
     
 
