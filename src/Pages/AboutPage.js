@@ -14,22 +14,24 @@ function AboutPage() {
             <ImageSection />
             <Tittle title={'Conhecimento'} span={'Conhecimento'} />
             <div className="skillsContainer">
-                <SkillsSection skill={'Html'} progress={'95%'} width={'95%'} />
-                <SkillsSection skill={'Css'} progress={'85%'} width={'85%'} />
-                <SkillsSection skill={'JavaScript'} progress={'85%'} width={'85%'} />
-                <SkillsSection skill={'React Js'} progress={'65%'} width={'65%'} />
-                <SkillsSection skill={'Node Js'} progress={'65%'} width={'65%'} />
+                <SkillsSection skill={'Html'} progress={'94%'} width={'94%'} />
+                <SkillsSection skill={'Css'} progress={'88%'} width={'88%'} />
+                <SkillsSection skill={'JavaScript'} progress={'80%'} width={'80%'} />
+                <SkillsSection skill={'TypeScript'} progress={'73%'} width={'73%'} />
+                <SkillsSection skill={'Git'} progress={'81%'} width={'81%'} />
+                <SkillsSection skill={'React Js'} progress={'75%'} width={'75%'} />
+                <SkillsSection skill={'Node Js'} progress={'62%'} width={'62%'} />
                 <SkillsSection skill={'Python'} progress={'55%'} width={'55%'} />
-                <SkillsSection skill={'Php'} progress={'75%'} width={'75%'} />
-                <SkillsSection skill={'Laravel'} progress={'80%'} width={'80%'} />
+                <SkillsSection skill={'Php'} progress={'78%'} width={'78%'} />
+                <SkillsSection skill={'Laravel'} progress={'78%'} width={'78%'} />
                 <SkillsSection skill={'MySQL'} progress={'85%'} width={'85%'} />
-                <SkillsSection skill={'Mongo DB'} progress={'65%'} width={'65%'} />
+                <SkillsSection skill={'Mongo DB'} progress={'67%'} width={'67%'} />
             </div>
 
             <Tittle title={'Serviços'} span={'Serviços'} />
             <div className="servives-container">
                 <ServicesSection image={design} title={'Front-end'} 
-                text={'Desenvolvimento de sites, toda a camada de interface, consumo de APIs.'}
+                text={'Desenvolvimento de websites, Interface e consumo de APIs.'}
                 />
                 <ServicesSection image={intelligence} title={'Back-end'} 
                 text={'Modelo MVC, Auth e CRUD.'}
