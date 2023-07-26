@@ -1,12 +1,11 @@
 .ServicesSection{
     .service{
         width: 95%;
-        color: #FFFFFF;
-        background-color: #20262E;
-        border-left: 1px solid #20262E;
-        border-right: 1px solid #20262E;
-        border-bottom: 1px solid #20262E;
-        border-top: 8px solid #000000;
+        background-color: #181D31;
+        border-left: 1px solid #181D31;
+        border-right: 1px solid #181D31;
+        border-bottom: 1px solid #181D31;
+        border-top: 8px solid #040303;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1400px){
             width: 100%;
@@ -20,6 +19,7 @@
             padding: 1rem;
             .s-title{
                 font-size: 1.6rem;
+                color: #FFFFFF;
                 font-weight: 500;
                 position: relative;
                 padding-bottom: 1rem;
@@ -36,14 +36,16 @@
             }
             .s-text{
                 font-weight: 400;
+                color: #FFFFFF;
             }
         }
     }
-    
-    .servives-container{
-        display: flex;
-        justify-content: space-between;
-        margin-top: 4rem;
+}
+
+.servives-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
     @media screen and (max-width:1400px){
         flex-direction: column;
         margin-bottom: 2rem;
