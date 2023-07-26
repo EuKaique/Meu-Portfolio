@@ -1,11 +1,12 @@
 .ServicesSection{
     .service{
         width: 95%;
-        background-color: #dfdfdf5e;
-        border-left: 1px solid #dfdfdf5e;
-        border-right: 1px solid #dfdfdf5e;
-        border-bottom: 1px solid #dfdfdf5e;
-        border-top: 8px solid #f7f7f7;
+        color: #FFFFFF;
+        background-color: #20262E;
+        border-left: 1px solid #20262E;
+        border-right: 1px solid #20262E;
+        border-bottom: 1px solid #20262E;
+        border-top: 8px solid #000000;
         transition: all .4s ease-in-out;
         @media screen and (max-width:1400px){
             width: 100%;
