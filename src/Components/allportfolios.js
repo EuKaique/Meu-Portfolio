@@ -34,7 +34,7 @@ const portfolios = [
         category: 'Html e Css',
         link1: 'https://github.com/EuKaique/Site-de-Empregos',
         icon1: 'Github',
-        image: port3,
+        image: siteEmprego,
         title: 'Site de empregos'
     },
     {
