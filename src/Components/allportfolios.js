@@ -21,11 +21,11 @@ const portfolios = [
     },
     {
         id: 2,
-        category: 'JavaScript',
-        link1: 'https://eukaique.github.io/Calculadora-IMC-javascript/',
+        category: 'React Js',
+        link1: 'https://multiform-pi.vercel.app/',
         icon1: 'Site',
         image: port2,
-        title: 'Calculadora IMC'
+        title: 'Multi Formulário'
     },
     {
         id: 3,
