@@ -3,7 +3,6 @@ import port2 from '../img/portImages/port1.PNG';
 import port3 from '../img/portImages/port2.jpg';
 import port4 from '../img/portImages/port3.jpg';
 import port5 from '../img/portImages/port4.jpg';
-import port6 from '../img/portImages/port5.jpg';
 import port7 from '../img/portImages/port6.jpg';
 import port8 from '../img/portImages/port7.PNG';
 import port9 from '../img/portImages/port8.PNG';
@@ -11,6 +10,7 @@ import port10 from '../img/portImages/port9.PNG';
 import port11 from '../img/portImages/port10.PNG';
 
 import siteEmprego from '../img/portImages/site_emprego.jpg';
+import galeriaFotos from '../img/portImages/galeriaFotos.jpg';
 
 const portfolios = [
     {
@@ -48,10 +48,10 @@ const portfolios = [
     {
         id: 5,
         category: 'React Js',
-        link1: 'https://github.com/EuKaique/moveit-next',
-        icon1: 'Github',
-        image: port6,
-        title: 'Move it - Movimente-se'
+        link1: 'https://image-gallery-red.vercel.app/',
+        icon1: 'Site',
+        image: galeriaFotos,
+        title: 'Galeria de fotos'
     },
     {
         id: 6,
