@@ -11,15 +11,16 @@ import port11 from '../img/portImages/port10.PNG';
 
 import siteEmprego from '../img/portImages/site_emprego.jpg';
 import galeriaFotos from '../img/portImages/galeriaFotos.jpg';
+import netflixImage from '../img/portImages/netflixImage.jpg';
 
 const portfolios = [
     {
         id: 1,
-        category: 'JavaScript',
-        link1: 'https://github.com/EuKaique/Calculadora-Online',
-        icon1: 'Github',
+        category: 'React Js',
+        link1: 'https://netflix-clone-yd6r.vercel.app/',
+        icon1: 'Site',
         image: port1,
-        title: 'Calculadora JavaScript'
+        title: 'Netflix Clone'
     },
     {
         id: 2,
@@ -88,10 +89,10 @@ const portfolios = [
     {
         id: 10,
         category: 'JavaScript',
-        link1: 'https://eukaique.github.io/Media-aluno/',
-        icon1: 'Site',
-        image: port10,
-        title: 'Calcula média do aluno'
+        link1: 'https://github.com/EuKaique/Calculadora-Online',
+        icon1: 'Github',
+        image: port1,
+        title: 'Calculadora'
     },
         {
         id: 11,
