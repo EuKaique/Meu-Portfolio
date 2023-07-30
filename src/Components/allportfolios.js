@@ -19,7 +19,7 @@ const portfolios = [
         category: 'React Js',
         link1: 'https://netflix-clone-yd6r.vercel.app/',
         icon1: 'Site',
-        image: port1,
+        image: netflixImage,
         title: 'Netflix Clone'
     },
     {
