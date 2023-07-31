@@ -12,6 +12,7 @@ import port11 from '../img/portImages/port10.PNG';
 import siteEmprego from '../img/portImages/site_emprego.jpg';
 import galeriaFotos from '../img/portImages/galeriaFotos.jpg';
 import netflixImage from '../img/portImages/netflixImage.jpg';
+import consultingImage from '../img/portImages/consultingImage.jpg';
 
 const portfolios = [
     {
@@ -64,11 +65,11 @@ const portfolios = [
     },
     {
         id: 7,
-        category: 'Node Js',
-        link1: 'https://github.com/EuKaique/You-informed',
-        icon1: 'Github',
-        image: port5,
-        title: 'Site de notícias'
+        category: 'React Js',
+        link1: 'https://consulting-webflow-udrh.vercel.app/',
+        icon1: 'Site',
+        image: consultingImage,
+        title: 'Consulting webFlow'
     },
     {
         id: 8,
