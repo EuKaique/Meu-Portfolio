@@ -60,7 +60,7 @@ const portfolios = [
     {
         id: 7,
         category: 'React Js',
-        link1: 'https://consulting-webflow-kaique.vercel.app/',
+        link1: 'https://consulting-webflow.vercel.app/',
         image: consultingImage,
         title: 'Consulting webFlow'
     },
