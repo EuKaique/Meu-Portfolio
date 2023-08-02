@@ -6,7 +6,7 @@ function MenuItems({menuItem}) {
             {
                 menuItem.map((item)=>{
                     return <div className="portfolio" key={item.id}>
-                        <div className="image-data">
+                        <div>
                             <a href={item.link1} target="_blank" rel="noreferrer">
                                 <img src={item.image} alt={item.image} />
                             </a>
