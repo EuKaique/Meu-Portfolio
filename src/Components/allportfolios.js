@@ -82,14 +82,14 @@ const portfolios = [
         id: 10,
         category: 'JavaScript',
         link1: 'https://github.com/EuKaique/Calculadora-Online',
-        icon1: 'Github',
+        image: port1,
         title: 'Calculadora'
     },
         {
         id: 11,
         category: 'Html e Css',
         link1: 'https://eukaique.github.io/Agencia-servicos/',
-        icon1: 'Site',
+        image: port11,
         title: 'Agência de serviços'
     }
 ]
