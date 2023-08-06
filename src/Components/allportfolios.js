@@ -14,6 +14,7 @@ import galeriaFotos from '../img/portImages/galeriaFotos.jpg';
 import netflixImage from '../img/portImages/netflixImage.jpg';
 import consultingImage from '../img/portImages/consultingImage.jpg';
 import imageClock from '../img/portImages/imageClock.jpg';
+import imageCalc from '../img/portImages/imageCalc.jpg';
 
 const portfolios = [
     {
@@ -82,8 +83,8 @@ const portfolios = [
     {
         id: 10,
         category: 'JavaScript',
-        link1: 'https://github.com/EuKaique/Calculadora-Online',
-        image: port1,
+        link1: 'https://eukaique.github.io/Calculadora-Cientifica/',
+        image: imageCalc,
         title: 'Calculadora'
     },
         {
